@@ -2,7 +2,7 @@
 
 ## Setup NFS ACLs so files don't inherit the execute bit
 
-![](images/../freenas-nfs-permissions.png)
+![](images/freenas-nfs-permissions.png)
 
 ## FreeNAS 11/12 Recover from expired cert
 
