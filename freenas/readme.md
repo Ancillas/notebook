@@ -2,6 +2,9 @@
 
 ## Setup NFS ACLs so files don't inherit the execute bit
 
+Thank you to muppet_3000 for solving this!
+https://www.truenas.com/community/threads/freenas-acls-and-a-somewhat-sticky-executable-bit.86670/
+
 ![](images/freenas-nfs-permissions.png)
 
 ## FreeNAS 11/12 Recover from expired cert
