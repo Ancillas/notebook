@@ -1,5 +1,9 @@
 # FreeNAS/TrueNAS notes
 
+## Setup NFS ACLs so files don't inherit the execute bit
+
+![](images/../freenas-nfs-permissions.png)
+
 ## FreeNAS 11/12 Recover from expired cert
 
 For some reason the ACME certs in FreeNAS never renew.  If they expire, and http is disabled, you can be left without a way to login to the web UI.
