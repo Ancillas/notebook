@@ -21,6 +21,8 @@ yum install libguestfs-tools libguestfs
 sudo apt-get install libguestfs-tools
 ```
 
+### Mount the image
+
 ```
 sudo mkdir /mnt/qcow-image
 guestmount -a path_to_image.qcow2 -i --ro /mnt/qcow-image
