@@ -51,3 +51,9 @@ Don't do this in production.  Use this if you want to force a connection and ski
 ```
 kubectl --insecure-skip-tls-verify apply -f postgres-pvc.yaml
 ```
+
+## show all namespaces
+
+```
+kubectl get namespaces
+```
