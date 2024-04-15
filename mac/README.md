@@ -6,6 +6,14 @@ You can store secrets in your Mac keychain and then retrieve them in scripts.  T
 
 ### Writing the secret 
 
+Disable history to avoid logging the secret.  In zsh this can be done by first running
+
+```
+fc -p
+```
+
+then
+
 ```
 security add-generic-password -a "$USER" -s 'secret-name' -w 'secret-value'
 # NOTE: $USER will be replaced with your username, which is what you want
